@@ -1,7 +1,7 @@
 require 'pry'
 
 class Backer
-  attr_accessor :name, :title, :back_projects
+  attr_accessor :name, :title, :backed_projects
 
 
 
