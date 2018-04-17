@@ -2,15 +2,15 @@ require 'pry'
 
 class Project
 
-  attr_accessor :title, :backer
+  attr_accessor :title
 
     def initialize(title)
       @title = title
-      @backer = []
+      @backers = []
     end
 
     def add_backer(backer)
-      @backer << backer
+      @backers << backer
     end
 
 
