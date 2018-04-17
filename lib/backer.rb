@@ -1,2 +1,3 @@
-binding.pry
+require 'pry'
+
 class Backer
