@@ -1,7 +1,7 @@
 require 'pry'
 
 class Backer
-  attr_accessor :name, :project
+  attr_accessor :name, :project, :title
 
 
     def initialize(name)
@@ -10,7 +10,7 @@ class Backer
     end
 
     def back_project(project)
-      @backed_projects << self(title)
+      @backed_projects << self
     end
 
 
